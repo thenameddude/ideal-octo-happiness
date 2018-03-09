@@ -102,7 +102,7 @@ def everything(k, arg = 0):
 cProfile.run('everything(9,0)')
 cProfile.run('everything(9,1)')
 
-for i in range(1,14):
+for i in range(1,13):
     for arg in range(2):
         time_start = time.time()
         x = everything(i,arg)
